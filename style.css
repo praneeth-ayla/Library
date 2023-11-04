@@ -69,3 +69,11 @@ button:hover {
 	position: absolute;
 	right: 3%;
 }
+
+#cards {
+	display: grid;
+}
+
+#card {
+	border: 1px solid gray;
+}
