@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Library</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div id="icon">Library</div>
+			<button id="loginBtn">Log In</button>
+		</div>
+
+		<div id="main">
+			<button id="addBtn">+ Add Book</button>
+
+			<dialog id="modal">
+				<button id="closeBtn">X</button>
+				<form action="#" method="dialog" id="form">
+					<div>
+						<label for="book">BOOK NAME</label>
+						<input type="text" name="book" id="book" required />
+					</div>
+					<div>
+						<label for="authorName">AUTHOR NAME</label>
+						<input
+							type="text"
+							name="authorName"
+							id="authorName"
+							required
+						/>
+					</div>
+					<div>
+						<label for="pages">Total Pages</label>
+						<input type="number" step="1" name="pages" id="pages" />
+					</div>
+					<div>
+						<label for="status">Read</label>
+						<input type="checkbox" name="status" id="status" />
+					</div>
+					<button type="submit">Add</button>
+				</form>
+			</dialog>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
