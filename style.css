@@ -64,7 +64,7 @@ button:hover {
 #modal {
 	border: none;
 	box-shadow: 0 0 1em rgb(0, 0, 0, 0.7);
-	/* padding: 15% 5%; */
+	padding: 5% 2%;
 	top: 20%;
 }
 #modal[open] {
@@ -74,16 +74,42 @@ button:hover {
 	font-size: large;
 	font-weight: bold;
 }
-#form div {
+#inputEl div {
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 15%;
 }
+label {
+	padding-bottom: 5%;
+}
+input {
+	height: 4vh;
+}
+
+#checkBox {
+	display: flex;
+}
+#checkBox label {
+	padding-top: 5%;
+}
+#checkBox input {
+	width: 50px;
+}
+
+#submitBtn {
+	margin-top: 20%;
+	justify-self: center;
+	background-color: rgb(183, 247, 183);
+	height: 10%;
+	width: 70%;
+}
+
 #closeBtn {
 	width: 20px;
 	justify-self: end;
 	top: 3%;
 	position: absolute;
-	right: 3%;
+	right: 5%;
 }
 
 #cards {
